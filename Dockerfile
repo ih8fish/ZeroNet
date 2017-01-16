@@ -12,7 +12,7 @@ RUN \
     apt-get -y install msgpack-python python-gevent python-pip python-dev; \
     pip install msgpack-python --upgrade; \
     apt-get clean -y; \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*; \
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*;
 #    echo "ControlPort 9051" >> /etc/tor/torrc; \
 #    echo "CookieAuthentication 1" >> /etc/tor/torrc
     
